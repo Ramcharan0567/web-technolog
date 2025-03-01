@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Tech Blog</h1>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section id="home" class="container">
+        <h2>Emerging Technologies</h2>
+        <video width="80%" controls>
+            <source src="tech_intro.mp4" type="video/mp4">
+        </video>
+        <p>Explore the latest trends in technology and innovation.</p>
+    </section>
+    <section id="about" class="container">
+        <h2>About Us</h2>
+        <p>Our blog explores the latest in technology trends and innovations.</p>
+        <table>
+            <tr><th>Category</th><th>Articles</th></tr>
+            <tr><td>AI & ML</td><td>15</td></tr>
+            <tr><td>Blockchain</td><td>10</td></tr>
+            <tr><td>Cybersecurity</td><td>8</td></tr>
+        </table>
+        <p>Read our latest <a href="#">articles</a> on cutting-edge technologies.</p>
+    </section>
+    <section id="gallery" class="container">
+        <h2>Gallery</h2>
+        <div class="gallery">
+            <img src="infographic.jpg" alt="Infographic">
+            <img src="tech_event.jpg" alt="Tech Event">
+        </div>
+        <audio controls>
+            <source src="podcast.mp3" type="audio/mp3">
+        </audio>
+        <p>Listen to our latest <a href="#">tech podcast</a> for more insights.</p>
+    </section>
+    <section id="contact" class="container">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        <p>Subscribe to our <a href="#">newsletter</a> for the latest updates.</p>
+    </section>
+</body>
+</html>
